@@ -1,0 +1,57 @@
+.technical-skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e6f2; /* Aqua lite blue background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills-container {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.skills-container h2 {
+    margin-bottom: 10px;
+}
+
+.input-box {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-box input {
+    display: block;
+    width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.input-box input::placeholder {
+    color: #888888;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.save-next-btn {
+    background-color: #00796b; /* Darker shade of aqua lite blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-next-btn:hover {
+    background-color: #004d40; /* Darker shade on hover */
+}

@@ -1,0 +1,52 @@
+.edu-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.edu-detail-section {
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Other styles you might have */
+
+.input-group input {
+    width: calc(100% - 16px); /* Adjust the width as needed */
+    padding: 6px; /* Decrease padding to make the input smaller */
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Decrease border-radius to make the input smaller */
+}
+
+
+.button-container {
+    display: flex;
+}
+
+.save-edit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.save-edit-btn:hover {
+    background-color: #0056b3;
+}

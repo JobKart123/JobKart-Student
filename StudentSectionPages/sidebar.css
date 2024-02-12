@@ -1,0 +1,243 @@
+/* sidebar.css */
+/* *{
+    margin: 0;
+} */
+
+*{
+    margin: 0;
+}
+
+
+.sbar{
+    float: left;
+    width: 90px;
+    height: 100vh;
+    background: #111643;
+    display:flex;
+    
+ 
+}   
+.div1{
+    
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+/* .icon1:{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(111, 111, 176);
+    padding: 15px;
+} */
+.icon1{
+    margin-left: 10px;
+}
+.hv:hover{
+    border-radius: 10px;
+    border: 1px solid  rgb(255, 255, 255);
+    background-color: rgb(111, 111, 176);
+    /* padding: 1px; */
+
+}
+
+.hv,.icon{
+    margin-bottom: 20px;
+}
+
+.dash{
+    margin-top: 0;
+}
+
+.dash:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+.cntr{
+    margin-left: 7px;
+}
+
+.sectn{
+    background-color: white;
+    height: 120vh;
+    width:Â 100vw;
+}
+.nevbar{
+    box-shadow: 10px 10px 10px cornflowerblue;
+    background-color: whitesmoke;
+    height: 90px;
+    width:Â 100vw;
+
+}
+
+.heading{   
+
+    float:left;
+    padding: 12px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.profile{
+    padding: 0px;
+    float: right;
+}
+
+.jobpost{
+    float: left;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    width: 15vw;
+    height: 6vh;
+    background-color: #2549F9;
+    color: #fff;
+    box-shadow: 10px 10px 10px rgb(95, 93, 93);
+    
+}
+.studentdata{
+    float: right;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    width: 15vw;
+    height: 6vh;
+    background-color: #2549F9;
+    color: #fff;
+    box-shadow: 10px 10px 10px rgb(95, 93, 93)
+
+}
+
+.card{
+    box-shadow: 10px 10px 10px rgb(95, 93, 93);
+    border-radius: 15px;
+    margin-top: 140px;
+    margin-left: 130px;
+    width: 360px;
+    height: 180px;
+    border: 3px solid;
+}
+
+
+.card1{
+    box-shadow: 10px 10px 10px rgb(95, 93, 93);
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 1000px;
+    height: 500px;
+    border: 3px solid;
+}
+
+.locicon{
+    margin-top:45px ;
+    float: left;
+
+}
+
+.varify{
+    
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.accept{
+    background-color: #2549F9;
+    width: 80px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.reject{
+    border-radius: 7px;
+    color: #fff;
+    background-color: #2549F9;
+    width: 80px;
+    padding: 5px;
+}
+
+/* sidebar.css */
+
+/* Card2 styles */
+.card2 {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Heading styles */
+.card2 h2 {
+    text-align: center;
+    margin-top: 12px;
+    color: #333;
+}
+
+/* Form container styles */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto; /* Centers the form horizontally */
+}
+
+/* Input field styles */
+.card2 input[type="text"],
+.card2 input[type="email"],
+.card2 input[type="tel"],
+.card2 input[type="date"],
+.card2 textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Label styles */
+.card2 label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+/* Submit button styles */
+.card2 button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.card2 button[type="submit"]:hover {
+    background-color: #0056b3;
+    align-content: center;
+}
+
+
+.button-container {
+    display: flex;
+    margin-left: 50px;
+}
+
+.button-container > div {
+    margin-right: 75px; /* Adjust margin as needed */
+}
